@@ -29,7 +29,7 @@ Penulis mengajukan hipotesis bahwa data persebaran *coffee shop* yang terdapat d
 Untuk mengetahui pola titik dari sebaran *coffee shop* di Kota Depok, akan digunakan **metode Quadrat** untuk mengambil keputusan apakah persebaran *coffee shop* di Kota Depok memenuhi CSR atau tidak.
 
 # Data
-[Data](bit.ly/DataSpasialKelompokH) yang digunakan merupakan **data sekunder** (sumber: Google Earth). Data terdiri dari **75 *coffee shop*** yang berada di Kota Depok.
+[Data](https://github.com/frianlh/SpatialStatistics-Project/blob/d0766f4c0466ad9ca2d2620057a0dadfa4629c1c/Coffee%20Shop%20di%20Kota%20Depok.csv) yang digunakan merupakan **data sekunder** (sumber: Google Earth). Data terdiri dari **75 *coffee shop*** yang berada di Kota Depok.
 
 Berikut gambaran data terkait *coffee shop* di Kota Depok.
 
@@ -56,13 +56,13 @@ flowchart LR;
 # Hasil dan Pembahasan
 ## Uji Quadrat
 <p align="center">
-  <img src="https://github.com/frianlh/Multivariate-Analysis-Project/blob/90afcb03e85249ac71f283a2e44555123344aaaf/Assest/Box%20Plot.png">
+  <img src="https://github.com/frianlh/SpatialStatistics-Project/blob/d0766f4c0466ad9ca2d2620057a0dadfa4629c1c/Assest/Quadrat%20Method%20Plot.png">
   <br>
   <i>Gambar 1 Quadrat Method Plot</i>
 </p>
 
 <p align="center">
-  <img src="https://github.com/frianlh/Multivariate-Analysis-Project/blob/90afcb03e85249ac71f283a2e44555123344aaaf/Assest/Box%20Plot.png">
+  <img src="https://github.com/frianlh/SpatialStatistics-Project/blob/d0766f4c0466ad9ca2d2620057a0dadfa4629c1c/Assest/Intensity%20Plot.png">
   <br>
   <i>Gambar 2 Intensity Plot</i>
 </p>
@@ -70,6 +70,7 @@ flowchart LR;
 **Hipotesis:**
 
 $H_0$ : Data menunjukkan *Complete Spatial Randomness* (CSR)
+
 $H_1$ : Data terkluster atau tersebar secara spasial
 
 Dengan menggunakan rumus CSR, didapatkan nilai statistik uji sebesar 141.41. Pada tingkat kepercayaan 95% diperoleh bahwa $\chi ^{2}$ > $\chi ^{2}_{0.05; 78}$ dan $p-value < 0.05$, maka dapat disimpulkan $H_0$ ditolak sehingga **data terkluster atau tersebar secara spasial**.
